@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC500"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Título -->
+
+    <!-- Campo Usuario -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="503dp"
+        android:layout_height="195dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Registrarse"
+        android:textColor="#1E88E5"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/nombreRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Nombre"
+        android:padding="10dp"
+        android:textColorHint="#9E9E9E" />
+
+    <!-- Campo Contraseña -->
+    <EditText
+        android:id="@+id/emailRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Email"
+        android:padding="10dp"
+        android:textColorHint="#9E9E9E" />
+
+    <EditText
+        android:id="@+id/contraseniaRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="#9E9E9E"/>
+
+    <!-- Olvidaste tu contraseña -->
+
+    <!-- Botón Iniciar Sesión -->
+
+    <!-- Botón Registrarse -->
+    <Button
+        android:id="@+id/Registrarse"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1E88E5"
+        android:onClick="onRegister"
+        android:text="Registrarse"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
